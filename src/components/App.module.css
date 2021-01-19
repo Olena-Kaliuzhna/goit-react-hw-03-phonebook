@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #77f39c;
+  margin: 0 auto;
+  padding: 15px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 20px;
+  background-color: #e4fa85;
+}
+.title {
+  text-align: center;
+  color: #08831d;
+  text-shadow: 4px 3px 12px rgba(9, 145, 16, 0.77);
+}

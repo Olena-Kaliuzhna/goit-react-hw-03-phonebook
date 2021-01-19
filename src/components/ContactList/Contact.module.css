@@ -1,0 +1,31 @@
+.wrapper {
+  width: 100%;
+  padding: 15px;
+}
+.contactItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(9, 145, 16);
+}
+
+.button {
+  padding: 5px 10px;
+  max-width: 150px;
+  align-self: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #0a8f13;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #55ce10;
+}
